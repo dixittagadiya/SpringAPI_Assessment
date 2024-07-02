@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.example.demo.model.User;
 import com.example.demo.service.UserService;
 
+@RestController
 public class UserCotroller {
 
 	@Autowired
