@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.example.demo.model.User;
 import com.example.demo.repo.UserRepo;
 
+@Service
 public class UserServiceimpl implements UserService	 {
 
 	@Autowired
